@@ -13,3 +13,8 @@ Answer: == শুধু value compare করে | === value + type দুটো�
 Answer : যখন আমরা API থেকে data আনি, তখন data আসতে একটু সময় লাগে।
 এই wait করার কাজ সহজভাবে handle করার জন্য async / await ব্যবহার করি।
 
+#### 5) Explain the concept of Scope in JavaScript (Global, Function, Block).
+Answer : Scope মানে → variable কোথা থেকে access করা যাবে (কোথায় ব্যবহার করা যাবে)|
+JavaScript এ মূলত 3 ধরনের scope আছে:
+Global Scope ,Function Scope ,Block Scope
+যে variable function বা block এর বাইরে declare করা হয়, সেটা global scope।এটা সব জায়গা থেকে access করা যায়।যে variable function এর ভিতরে declare করা হয়, সেটা শুধু ওই function এর ভিতরেই কাজ করবে।Function এর ভিতরের variable → বাইরে থেকে access করা যায় না | Function এর ভিতরের variable → বাইরে থেকে access করা যায় না | let এবং const → block scope follow করে ?
