@@ -4,4 +4,8 @@ Answer : যখন কোনো ভ্যারিয়েবল declare করা
 
 #### 2) What is the use of the `map()` function in JavaScript? How is it different from `forEach()`?
 
-Answer: map() array এর প্রতিটি element এর উপর loop চালায় এবং নতুন একটি array return করে — যেখানে modified / transformed value থাকে।forEach() শুধু loop চালায়, কিন্তু কোনো নতুন array return করে না।
+Answer: map() array এর প্রতিটি element এর উপর loop চালায় এবং নতুন একটি array return করে — যেখানে modified / transformed value থাকে।forEach() শুধু loop চালায়, কিন্তু কোনো নতুন array return করে না। 
+
+#### 3) What is the difference between `==` and `===`?
+Answer: == শুধু value compare করে | === value + type দুটোই compare করে 
+
